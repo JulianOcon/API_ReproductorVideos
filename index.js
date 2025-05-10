@@ -22,7 +22,7 @@ app.use('/thumbnails', express.static(THUMBNAILS_DIR));
 app.use(express.json());
 
 // IP manual o automática
-const IP_MANUAL = "10.20.106.81";
+const IP_MANUAL = "192.168.1.12";
 let IP_PUBLICA = IP_MANUAL || "localhost";
 
 // IP dinámica (si no se usa IP_MANUAL)
